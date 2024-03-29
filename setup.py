@@ -24,7 +24,6 @@ setup(
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     python_requires=">=3.6",
-    install_requires=["numpy", "scipy", "matplotlib"],
-    extras_require={"test" : ["notebook"],
-                    "dev" : ["pytest", "twine", "setuptools", "build"]}
+    install_requires=["numpy", "matplotlib"],
+    extras_require={"dev" : ["pytest", "twine", "setuptools", "build"]}
 )
