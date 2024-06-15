@@ -30,8 +30,8 @@ which is the discrete Fourier series (DFS). The coefficients are discretised as 
 
 $$ a_0 = \frac{1}{N} \sum_{n = 1}^{N} f(n),$$
 
-$$a_k = \frac{2}{N}\sum_{n = 1}^{N} f(n) \cos\left({\frac{2\pi k}{N}n}\right)\quad \forall\, k=1,2,\dots,M,$$
+$$a_k = \frac{2}{N}\sum_{n = 1}^{N} f(n) \cos\left({\frac{2\pi k}{N}n}\right)\quad \forall k=1,2,\dots,M,$$
 
-$$b_k = \frac{2}{N}\sum_{n = 1}^{N} f(n) \sin\left({\frac{2\pi k}{N}n}\right)\quad \forall\, k=1,2,\dots,M.$$
+$$b_k = \frac{2}{N}\sum_{n = 1}^{N} f(n) \sin\left({\frac{2\pi k}{N}n}\right)\quad \forall k=1,2,\dots,M.$$
 
 The last four relationships are implemented in D-FUSS.
